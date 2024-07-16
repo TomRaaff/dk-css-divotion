@@ -1,0 +1,38 @@
+:root {
+    --green: #2dc84d;
+    --grey: #5d6c77;
+    --blue: #00bce4;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    background: #e8e8e8;
+    font-family: system-ui;
+    font-weight: 400;
+}
+
+header {
+    background: linear-gradient(to right, var(--green), var(--blue));
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+main {
+    margin: auto;
+    padding: 1rem;
+    width: 800px;
+    max-width: calc(100% - 2rem);
+    line-height: 1.6;
+}
+
+h1 {
+    font-size: 4rem;
+    font-weight: 700;
+    line-height: 1;
+    text-align: center;
+    margin-bottom: 1em;
+}
+
+
